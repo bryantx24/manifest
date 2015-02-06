@@ -564,7 +564,7 @@
   
   <!-- SaberSunset Frameworks -->
   <project path="frameworks/base" name="frameworks_base" remote="ss" revision="ss5.0" />
-  <project path="frameworks/native" name="frameworks_native" remote="gss" revision="ss5.0" />
+  <project path="frameworks/native" name="frameworks_native" remote="ss" revision="ss5.0" />
   
   <!-- SaberSunset Packages -->
   <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="ss" revision="ss5.0" />
