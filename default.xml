@@ -549,6 +549,6 @@
   <!-- NOTE:
   Some toolchains are being pushed into Gitorious because of Github's binary size limit.
   Gitorious needs to be configurated like Github, SSH Keys are used there as well.
-  <script src="http://pastebin.com/embed_js.php?i=8P5yRdka"></script>
+  You can setup your Gitorious SSH Keys using my micro tutorial: http://pastebin.com/raw.php?i=8P5yRdka
   -->
 </manifest>
