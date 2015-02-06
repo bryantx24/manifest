@@ -17,6 +17,9 @@
   <remote  name="ss"
            fetch="https://github.com/SaberSunset" />
 
+  <remote  name="gitorious"
+           fetch="ssh://git@gitorious.org/" />
+
   <remote  name="cm"
            fetch="git://github.com"
            review="review.cyanogenmod.org" />
@@ -537,6 +540,15 @@
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,pdk-cw-fs,x86" />
   
   <!-- ARM Google Toolchains -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" />
+  <!-- project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" -->
+  
+  <!-- ARM SaberMod Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="SaberMod/arm-androideabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="sabermod/arm-eabi-4_9.git" remote="gitorious" revision="master" />
+  <!-- NOTE:
+  Some toolchains are being pushed into Gitorious because of Github's binary size limit.
+  Gitorious needs to be configurated like Github, SSH Keys are used there as well.
+  <script src="http://pastebin.com/embed_js.php?i=8P5yRdka"></script>
+  -->
 </manifest>
