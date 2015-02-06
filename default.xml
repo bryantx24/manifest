@@ -31,10 +31,6 @@
   <!-- SaberSunset Manifest -->
   <project path="manifest" name="manifest" remote="ss" revision="ss5.0" />
   
-  <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="lollipop" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="bionic" name="AOSPA-legacy/android_bionic" remote="github" revision="lollipop" groups="pdk" />
@@ -547,6 +543,11 @@
   Gitorious needs to be configurated like Github, SSH Keys are used there as well.
   You can setup your Gitorious SSH Keys using my micro tutorial: http://pastebin.com/raw.php?i=8P5yRdka
   -->
+  
+  <!-- SaberSunset Build -->
+  <project path="build" name="build" remote="ss" revision="ss5.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   
   <!-- SaberSunset Vendor -->
   <project path="vendor/ss" name="vendor_ss" remote="ss" revision="ss5.0" >
