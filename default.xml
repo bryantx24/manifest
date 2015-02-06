@@ -494,10 +494,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-
-  <project path="vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="github" revision="lollipop" >
-    <copyfile src="build.sh" dest="rom-build.sh" />
-  </project>
   
   <!-- SaberSunset Project -->
   
@@ -551,4 +547,10 @@
   Gitorious needs to be configurated like Github, SSH Keys are used there as well.
   You can setup your Gitorious SSH Keys using my micro tutorial: http://pastebin.com/raw.php?i=8P5yRdka
   -->
+  
+  <!-- SaberSunset Vendor -->
+  <project path="vendor/ss" name="vendor_ss" remote="ss" revision="ss5.0" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
+  
 </manifest>
