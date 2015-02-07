@@ -546,7 +546,7 @@
   
   <!-- SaberMod Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="SaberMod/arm-androideabi-4.8" remote="github" revision="master" />
-  <!-- project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="sabermod/arm-eabi-4_9.git" remote="gitorious" revision="master" -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="sabermod/arm-eabi-4_9.git" remote="gitorious" revision="master" />
   <!-- NOTE:
   Some toolchains are being pushed into Gitorious because of Github's binary size limit.
   Gitorious needs to be configurated like Github, SSH Keys are used there as well.
