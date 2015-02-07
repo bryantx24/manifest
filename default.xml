@@ -391,7 +391,6 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="development" name="CyanogenMod/android_development" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
-  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="cm" revision="cm-12.0" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="cm" revision="cm-12.0" />
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="cm" revision="cm-12.0" />
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="cm" revision="cm-12.0" />
@@ -575,5 +574,8 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="ss" revision="ss5.0" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="ss" revision="ss5.0" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="ss" revision="ss5.0" />
+  
+  <!-- Fixes for SaberSunset -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ss" revision="ss5.0" />
   
 </manifest>
