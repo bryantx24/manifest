@@ -487,7 +487,6 @@
   <project path="packages/providers/MediaProvider" name="AOSPA-legacy/android_packages_providers_MediaProvider" remote="github" revision="lollipop" groups="pdk-cw-fs" />
   <project path="packages/providers/TelephonyProvider" name="AOSPA-legacy/android_packages_providers_TelephonyProvider" remote="github" revision="lollipop" />
   <project path="packages/services/Telecomm" name="AOSPA-legacy/android_packages_services_Telecomm" remote="github" revision="lollipop" />
-  <project path="packages/services/Telephony" name="AOSPA-legacy/android_packages_services_Telephony" remote="github" revision="lollipop" />
   <project path="system/core" name="AOSPA-legacy/android_system_core" remote="github" revision="lollipop" groups="pdk" />
   <project path="system/extras" name="AOSPA-legacy/android_system_extras" remote="github" revision="lollipop" groups="pdk" />
   
@@ -574,6 +573,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="ss" revision="ss5.0" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="ss" revision="ss5.0" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="ss" revision="ss5.0" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ss" revision="ss5.0" />
   
   <!-- Fixes for SaberSunset -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ss" revision="ss5.0" />
