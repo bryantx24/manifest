@@ -243,7 +243,6 @@
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" />
@@ -577,5 +576,6 @@
   
   <!-- Fixes for SaberSunset -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ss" revision="ss5.0" />
+  <project path="external/stlport" name="external_stlport" remote="ss" revision="ss5.0" />
   
 </manifest>
