@@ -383,6 +383,7 @@
   <project path="packages/providers/ThemesProvider" name="AOSPA/android_packages_providers_ThemesProvider" remote="github" revision="lollipop"  />
   <project path="packages/apps/Eleven" name="AOSPA-legacy/android_packages_apps_Eleven" remote="github" revision="lollipop" />
   <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" remote="cm" revision="cm-12.0" />
+  <project path="packages/apps/Mms-caf" name="AOSPA-legacy/android_packages_apps_Mms-caf" remote="github" revision="lollipop" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" -->
   
@@ -483,7 +484,6 @@
   <project path="external/skia" name="AOSPA-legacy/android_external_skia" remote="github" revision="lollipop" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="frameworks/opt/telephony" name="AOSPA-legacy/android_frameworks_opt_telephony" remote="github" revision="lollipop" groups="pdk" />
   <project path="packages/apps/DeskClock" name="AOSPA-legacy/android_packages_apps_Deskclock" remote="github" revision="lollipop" />
-  <project path="packages/apps/Mms-caf" name="AOSPA-legacy/android_packages_apps_Mms-caf" remote="github" revision="lollipop" />
   <project path="packages/providers/MediaProvider" name="AOSPA-legacy/android_packages_providers_MediaProvider" remote="github" revision="lollipop" groups="pdk-cw-fs" />
   <project path="packages/providers/TelephonyProvider" name="AOSPA-legacy/android_packages_providers_TelephonyProvider" remote="github" revision="lollipop" />
   <project path="packages/services/Telecomm" name="AOSPA-legacy/android_packages_services_Telecomm" remote="github" revision="lollipop" />
