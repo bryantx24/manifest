@@ -559,7 +559,7 @@
   </project>
   
   <!-- SaberSunset Frameworks -->
-  <project path="frameworks/base" name="frameworks_base" remote="ss" revision="ss5.0" />
+  <project path="frameworks/base" name="frameworks_base" remote="ss" revision="lollipop" />
   <project path="frameworks/native" name="frameworks_native" remote="ss" revision="ss5.0" />
   
   <!-- SaberSunset Packages -->
@@ -567,7 +567,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="ss" revision="master" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="ss" revision="lollipop" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ss" revision="ss5.0"  />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="ss" revision="ss5.0" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="ss" revision="lollipop" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="ss" revision="ss5.0" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="ss" revision="ss5.0" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ss" revision="lollipop" />
