@@ -572,7 +572,7 @@
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="ss" revision="ss5.0" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ss" revision="lollipop" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ss" revision="lollipop" />
-  <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="ss" revision="ss5.0" />
+  <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="ss" revision="lollipop-caf" />
   
   <!-- Fixes for SaberSunset -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ss" revision="ss5.0" />
