@@ -559,7 +559,7 @@
   </project>
   
   <!-- SaberSunset Frameworks -->
-  <project path="frameworks/base" name="frameworks_base" remote="ss" revision="lollipop" />
+  <project path="frameworks/base" name="frameworks_base" remote="ss" revision="master" />
   <project path="frameworks/native" name="frameworks_native" remote="ss" revision="ss5.0" />
   
   <!-- SaberSunset Packages -->
