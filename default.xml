@@ -578,8 +578,4 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ss" revision="ss5.0" />
   <project path="external/stlport" name="external_stlport" remote="ss" revision="ss5.0" />
   
-  <!-- Devices -->
-  <!-- G2-Common -->
-  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="ss" revision="ss5.0" />
-  
 </manifest>
