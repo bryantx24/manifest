@@ -23,7 +23,7 @@ You can know more about all this Android concept reading these articles:
 Knowlegde is for free, and a good reading is always welcome. There are too many more articles and information
 about all these subjects, but the links above provide really helpful ones, mainly for developers.
 
-## Build ##
+## Initialize ##
 
 To get started with SaberSunset, you'll need to get familiar with [Github](https://help.github.com/)
 
