@@ -16,6 +16,10 @@
 
   <remote  name="ss"
            fetch="https://github.com/SaberSunset" />
+           
+  <remote  name="du"
+           fetch="https://github.com/DirtyUnicorns/"
+           review="gerrit.dirtyunicorns.com" />
 
   <remote  name="gitorious"
            fetch="ssh://git@gitorious.org/" />
