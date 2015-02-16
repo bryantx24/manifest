@@ -479,7 +479,6 @@
   <project path="bionic" name="AOSPA-legacy/android_bionic" remote="github" revision="lollipop" groups="pdk" />
   <project path="external/jpeg" name="AOSPA-legacy/android_external_jpeg" remote="github" revision="lollipop" groups="pdk" />
   <project path="external/skia" name="AOSPA-legacy/android_external_skia" remote="github" revision="lollipop" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="frameworks/opt/telephony" name="AOSPA-legacy/android_frameworks_opt_telephony" remote="github" revision="lollipop" groups="pdk" />
   <project path="packages/apps/DeskClock" name="AOSPA-legacy/android_packages_apps_Deskclock" remote="github" revision="lollipop" />
   <project path="packages/apps/Mms-caf" name="AOSPA-legacy/android_packages_apps_Mms-caf" remote="github" revision="lollipop" />
   <project path="packages/providers/MediaProvider" name="AOSPA-legacy/android_packages_providers_MediaProvider" remote="github" revision="lollipop" groups="pdk-cw-fs" />
@@ -561,6 +560,7 @@
   <!-- SaberSunset Frameworks -->
   <project path="frameworks/base" name="frameworks_base" remote="ss" revision="ss5.0" />
   <project path="frameworks/native" name="frameworks_native" remote="ss" revision="ss5.0" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ss" revision="ss5.0" />
   
   <!-- SaberSunset Packages -->
   <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="ss" revision="ss5.0" />
