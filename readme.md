@@ -10,15 +10,15 @@ You can know more about all this Android concept reading these articles:
 
 [Truth behind Buzzwords](https://docs.google.com/document/d/1C-ehLWl6XcStOmB30QHDA_DOdceXiGIyzXT_0eIg5nQ/edit)
 
-[GCC Optimizations](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html)
-
 [Graphite](https://gcc.gnu.org/wiki/Graphite-4.8)
-
-[GCC Index](https://gcc.gnu.org/onlinedocs/gcc/)
 
 [Strict-Aliasing](http://dbp-consulting.com/tutorials/StrictAliasing.html)
 
-[Suppressing Warnings](http://dbp-consulting.com/tutorials/SuppressingGCCWarnings.html)
+[GCC Optimizations](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html)
+
+[Loop Nest](http://en.wikipedia.org/wiki/Loop_nest_optimization)
+
+[GCC Index](https://gcc.gnu.org/onlinedocs/gcc/)
 
 Knowlegde is for free, and a good reading is always welcome. There are too many more articles and information
 about all these subjects, but the links above provide really helpful ones, mainly for developers.
@@ -35,7 +35,7 @@ To initialize your local repository using the SaberSunset trees, use this comman
 
     repo sync -f -jx
 	
-x is the number of your cpu processors + 1.
+x is the number of simultaneous tasks your connection can handle, I use -j5 as default.
 
 ## Building ##
 
@@ -43,7 +43,7 @@ x is the number of your cpu processors + 1.
     lunch
     make -jx otapackage
 
-x is the number of your cpu processors + 1.  
+x is the number of your cpu processors + 1, basically.  
 
 ## Thanks ##
 
