@@ -389,8 +389,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" -->
   
   <!-- CyanogenMod -->
-  <project path="art" name="CyanogenMod/android_art" remote="cm" revision="cm-12.0" groups="pdk" />
-  <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="development" name="CyanogenMod/android_development" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
@@ -580,7 +578,9 @@
   <project path="packages/apps/DeskClock" name="packages_apps_Deskclock" remote="ss" revision="ss5.0" />
   <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="ss" revision="ss5.0" />
   
-  <!-- Fixes for SaberSunset -->
+  <!-- SaberSunset Optimizations && Fixes -->
+  <project path="art" name="art" remote="ss" revision="ss5.0" />
+  <project path="bionic" name="bionic" remote="ss" revision="ss5.0" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ss" revision="ss5.0" />
   <project path="external/stlport" name="external_stlport" remote="ss" revision="ss5.0" />
   
