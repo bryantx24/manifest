@@ -551,8 +551,8 @@
   -->
   
   <!-- Robbie's SaberMod Toolchains -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="RobbieL811/Sabermod" remote="github" revision="androideabi-4.8" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="RobbieL811/Sabermod" remote="github" revision="arm-eabi-4.9" />
+  <!-- project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="RobbieL811/Sabermod" remote="github" revision="androideabi-4.8" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="RobbieL811/Sabermod" remote="github" revision="arm-eabi-4.9" -->
   
   <!-- SaberSunset Fixes -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ss" revision="ss5.0" />
