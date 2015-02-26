@@ -580,8 +580,8 @@
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="ss" revision="ss5.0" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ss" revision="ss5.0" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ss" revision="ss5.0" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="ss" revision="ss5.0-caf" />
-  <project path="packages/apps/Mms-caf" name="packages_apps_Mms" remote="ss" revision="ss5.0-caf" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="ss" revision="ss5.0" />
+  <project path="packages/apps/Mms-caf" name="packages_apps_Mms-caf" remote="ss" revision="ss5.0" />
   <project path="packages/apps/DeskClock" name="packages_apps_Deskclock" remote="ss" revision="ss5.0" />
   <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="ss" revision="ss5.0" />
   
