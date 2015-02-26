@@ -540,6 +540,16 @@
   <!--  \__ \| |_| ||  |\   |\__ \|-|_   |  |   -->
   <!--  |___/|_____||__| \__||___/|___/  |__|   -->
   
+  <!-- Scripts -->
+  <project path="scripts" name="scripts" remote="ss" revision="master" >
+    <copyfile src="build_rom.sh" dest="build_rom.sh" />
+    <copyfile src="build_kernel.sh" dest="build_kernel.sh" />
+    <copyfile src="build_recovery.sh" dest="build_recovery.sh" />
+    <copyfile src="rom_to_device.sh" dest="rom_to_device.sh" />
+    <copyfile src="kernel_to_device.sh" dest="kernel_to_device.sh" />
+    <copyfile src="recovery_to_device.sh" dest="recovery_to_device.sh" />
+  </project>
+  
   <!-- SaberMod Toolchains are now obtained using git clone of BitBucket:
   https://bitbucket.org/GalaticStryder/arm-eabi-4.9 for Kernel
   https://bitbucket.org/GalaticStryder/androideabi-4.8 for ROM
