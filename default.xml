@@ -562,6 +562,7 @@
   -->
   
   <!-- SaberSunset Fixes -->
+  <project path="device/qcom/common" name="device_qcom_common" remote="ss" revision="ss5.0"/>
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ss" revision="ss5.0" />
   <project path="external/stlport" name="external_stlport" remote="ss" revision="ss5.0" />
   
