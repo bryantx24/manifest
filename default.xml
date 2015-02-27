@@ -541,7 +541,10 @@
   <!--  |___/|_____||__| \__||___/|___/  |__|   -->
   
   <!-- Scripts -->
-  <project path="scripts" name="scripts" remote="ss" revision="master" />
+  <project path="scripts" name="scripts" remote="ss" revision="master" >
+     <copyfile src="build_rom.sh" dest="rom.sh" />
+     <copyfile src="build_kernel.sh" dest="kernel.sh" />
+  </project>
   
   <!-- SaberMod Toolchains are now obtained using git clone of BitBucket:
   https://bitbucket.org/GalaticStryder/arm-eabi-4.9 for Kernel
