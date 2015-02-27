@@ -556,7 +556,7 @@
   Credits: @RobbieL811
   Using git clone to get your toolchains from BitBucket
   Sign in to BitBucket and log into it. In the main page go to Manage account -> Security -> Change password and set it.  
-  git clone https://GalaticStryder@bitbucket.org/GalaticStryder/arm-eabi-4.9.git prebuilts/gcc/linux-x86/arm/arm-eabi-4.9
+  git clone https://GalaticStryder@bitbucket.org/GalaticStryder/arm-eabi-4.8.git prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
   git clone https://GalaticStryder@bitbucket.org/GalaticStryder/arm-eabi-4.9.git prebuilts/gcc/linux-x86/arm/arm-eabi-4.9
   git clone https://GalaticStryder@bitbucket.org/GalaticStryder/androideabi-4.8.git prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8
   It will ask you the password, type it. It will start downloading...
