@@ -23,28 +23,6 @@ You can know more about all this Android concept reading these articles:
 Knowlegde is for free, and a good reading is always welcome. There are too many more articles and information
 about all these subjects, but the links above provide really helpful ones, mainly for developers.
 
-## Initialize ##
-
-To get started with SaberSunset, you'll need to get familiar with [Github](https://help.github.com/)
-
-To initialize your local repository using the SaberSunset trees, use this command:
-
-    repo init -u https://github.com/SaberSunset/manifest.git -b ss5.0
-
-## Getting Source ##
-
-    repo sync -f -jx
-	
-x is the number of simultaneous tasks your connection can handle, I use -j5 as default.
-
-## Building ##
-
-    . build/envsetup.sh
-    lunch
-    make -jx otapackage
-
-x is the number of your cpu processors + 1, basically.  
-
 ## Thanks ##
 
 Organizations:
